@@ -6,7 +6,7 @@
   </div>
 </template>
 
-<script>
+<script> // This connects to netlify
 export default {
   head() {
     return {
