@@ -1,5 +1,5 @@
 {
-  "name": "cpnt200-a1",
+  "name": "cpnt200-a2",
   "version": "1.0.0",
   "scripts": {
     "dev": "nuxt",
@@ -20,17 +20,17 @@
     "gh-pages": "^3.2.3",
     "push-dir": "^0.4.1"
   },
-  "description": "Asignment 1 for 200",
+  "description": "Asignment 2 for 200",
   "main": "nuxt.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lucas-cq/cpnt200-a1.git"
+    "url": "git+https://github.com/lucas-cq/cpnt200-a2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lucas-cq/cpnt200-a1/issues"
+    "url": "https://github.com/lucas-cq/cpnt200-a2/issues"
   },
-  "homepage": "https://github.com/lucas-cq/cpnt200-a1"
+  "homepage": "https://github.com/lucas-cq/cpnt200-a2"
 }
