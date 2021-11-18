@@ -20,7 +20,7 @@ collections:
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'gallery'
-    label: 'Gallery'
+    label: 'Car Gallery'
     folder: 'content/gallery'
     format: 'frontmatter'
     create: true
@@ -31,3 +31,14 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Image', name: 'image', widget: 'image', multiple: true}
       - { label: 'Image Date', name: 'date', widget: 'datetime'}
+  - name: 'map'
+    label: 'Map'
+    foler: 'content/maps'
+    format: 'frontmatter'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Location', name: 'location', widget: 'map'}
