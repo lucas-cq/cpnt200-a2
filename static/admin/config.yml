@@ -16,7 +16,7 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Color', name: 'color', widget: 'color', allowInput: true}
+      - { label: 'Color', name: 'color', widget: 'color', allowInput: true, multiple: true}
   - name: 'gallery'
     label: 'Car Gallery'
     folder: 'content/gallery'
