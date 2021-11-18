@@ -42,3 +42,4 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string'}
       - { label: 'Location', name: 'location', widget: 'map'}
+      - { label: 'About This Place', name: 'about-this-place', widget: 'string'}
